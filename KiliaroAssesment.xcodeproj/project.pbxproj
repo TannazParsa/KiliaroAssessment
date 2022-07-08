@@ -35,8 +35,6 @@
 		B663D21028744B56003D3935 /* MediaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPresenter.swift; sourceTree = "<group>"; };
 		B663D21228744B8C003D3935 /* MediaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRouter.swift; sourceTree = "<group>"; };
 		B663D21728745173003D3935 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
-		B6A8621F2875DF66007EAE86 /* DataModels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DataModels; path = ../../KiliaroAssesment/KiliaroAssigment/Modules/DataModels; sourceTree = "<group>"; };
-		B6A862202875DF67007EAE86 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Network; path = ../../KiliaroAssesment/KiliaroAssigment/Modules/Network; sourceTree = "<group>"; };
 		B6A862212875E5D4007EAE86 /* SingleMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMediaViewController.swift; sourceTree = "<group>"; };
 		B6A862232876260F007EAE86 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		B6D0CA5F287425380098E51C /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		B6F0A5AE287381BA0091311C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F0A5B1287381BA0091311C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F0A5B3287381BA0091311C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F3C4C4287857A100E5B5C6 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Network; path = Modules/Network; sourceTree = "<group>"; };
+		B6F3C4C828785A1800E5B5C6 /* DataModels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DataModels; path = ../../Kiliaro/KiliaroAssesment/Modules/DataModels; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 		B6F0A5B92873833A0091311C /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				B6A8621F2875DF66007EAE86 /* DataModels */,
-				B6A862202875DF67007EAE86 /* Network */,
+				B6F3C4C828785A1800E5B5C6 /* DataModels */,
+				B6F3C4C4287857A100E5B5C6 /* Network */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -425,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-KiliaroAssesment.app.KiliaroAssesment";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KiliaroAssesment.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-KiliaroAssesment.app.KiliaroAssesment";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KiliaroAssesment.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
